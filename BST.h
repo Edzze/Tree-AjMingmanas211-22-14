@@ -83,7 +83,6 @@ void BST::printTree(TreeNodePtr treePtr,int l) {
   }                                 // end if
 } // end function
 
-
 void BST::postOrder(TreeNodePtr treePtr) {
   if (treePtr) {
     // if tree is not empty, then traverse
@@ -99,6 +98,7 @@ void BST::kill(TreeNodePtr treePtr) {
   // TreeNodePtr treePtr=rootPtr;
     }                                          // end if
 } // end function
+
 void BST::preOrder(TreeNodePtr treePtr) {
   if(treePtr){
   //TreeNodePtr treePtr=rootPtr;
@@ -107,7 +107,6 @@ void BST::preOrder(TreeNodePtr treePtr) {
     preOrder(treePtr->move_right());
   }                                          // end if
 } // end function
-
 
 void BST::print_all(int option) {
   switch (option) {
